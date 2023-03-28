@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 30px;
+
+
+}
+
+
+.itemBox {
+    width: 350px;
+    height: 260px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F0F0F0;
+
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+
+    padding: 30px;
+
+    .name {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .data {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        flex-direction: column;
+
+    }
+
+    .button {
+        width: 262px;
+        height: 42px;
+
+        background: #0071E3;
+        border: none;
+        border-radius: 4px;
+        margin-top: 30px;
+        margin-left: 11px;
+
+        color: white;
+
+        cursor: pointer;
+    }
+}
+
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.aboutBtn {
+    width: 232px;
+    height: 42px;
+
+    background: #0071E3;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.containerSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 100%;
+    padding: 30px;
+
+    .aboutFace {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
+    .mainPage {
+        width: 232px;
+        height: 42px;
+    
+        background: #0071E3;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
